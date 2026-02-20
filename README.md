@@ -15,12 +15,14 @@
 3) Y la otra llamada evidencias en donde podemos encontrar varias capturas con evidencias del funcionamiento de este proyecto tando como en el IDE como en la termina tambien el como ofuscar el codigo y viceversa lo que utilice aora esto es jd-gui.
 
 
+----------------------------------------------
 ##PARTE A Dependencia Maven entre proyectos
 
 Entrando a la carptera de structure stack en la terminal y ejecutar mvn clean install "esto instalar la librerai en el repositorio local de maven "--
 
 ... esto hara que podamos entrar en el proyecto que cree de stack hanlder y al ejecutar mvn clean package siempre en al termianl para poder incrustarla por asi decirlo.
 
+--------------------------------------
 
 ##PARTE B Implementación funcional
 
@@ -34,6 +36,7 @@ Caso inválido:
 -- Tambien probe los metodos adiciones de getsize y el de getnode init.
 
 
+------------------------------------------
 
 ##PARTE C Ofuscación reproducible en ambos proyectos.
 
@@ -49,6 +52,7 @@ Caso inválido:
 -----------Para ejecutar el ajr ofuscado en terminal utlice el comando java -jar target/stackHandler-0.0.1-SNAPSHOT-obfuscated.jar
 y con este el comportamineto del programa se mantiene igual. 
 
+----------------------------------------
 
 🔎 5. Parte D – Ingeniería inversa
 
